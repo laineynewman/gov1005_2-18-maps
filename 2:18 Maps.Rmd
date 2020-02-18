@@ -1,0 +1,21 @@
+---
+title: "2/18 Maps"
+author: "Lainey Newman"
+date: "2/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidycensus)
+library(tidyverse)
+
+census_api_key("9f9584127dd506cdaf80bdb78927e9c01c12f2b8", install = TRUE)
+readRenviron("~/.Renviron")
+
+```
+
+## R Markdown
+
+
